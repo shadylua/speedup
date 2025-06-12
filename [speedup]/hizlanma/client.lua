@@ -70,6 +70,7 @@ local speedshape = {}
 --speedmarkers
 function createSpeedMarker(x,y,z,alan)
     object = createObject(2189,x,y,z)
+    setElementCollisionsEnabled(object, false)
     cub = createColCuboid(x-5.75,y-1.56,z,11.5,3.2,3)
     speedshape[cub] = true
     speedmarkers[object] = {alan = cub,obje = object,pos = {x,y,z}}
