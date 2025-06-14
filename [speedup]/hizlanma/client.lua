@@ -118,7 +118,5 @@ addEventHandler("onClientColShapeLeave",root,function(hit)
     end
 end)
 --
-setDevelopmentMode(true)
---
 startArrowAnim()
 --
